@@ -1,0 +1,27 @@
+{
+  "name": "info-tech-test",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --fix"
+  },
+  "dependencies": {
+    "pinia": "^3.0.3",
+    "vue": "^3.5.18",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.1",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "@vue/eslint-config-typescript": "^14.9.0",
+    "eslint": "^10.10.0",
+    "eslint-plugin-vue": "^10.11.0",
+    "typescript": "~5.8.3",
+    "vite": "^7.0.0",
+    "vue-tsc": "^3.0.0"
+  }
+}
